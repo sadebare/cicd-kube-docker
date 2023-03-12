@@ -11,7 +11,7 @@ pipeline {
     }
 
     environment {
-        registry = "rumeysakdogan/vprofileapp"
+        registry = "barry1234/vprofileapp"
         registryCredential = 'dockerhub'
         SNAP_REPO = 'vprofile-snapshot'
         NEXUS_USER = 'admin'
